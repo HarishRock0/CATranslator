@@ -7,7 +7,7 @@ import asyncio
 translator = Translator()
 
 root = tk.Tk()
-root.title("CodeAlpha Translator")
+root.title("CodeAlpha Translator") 
 root.geometry("1000x600+100+0")
 root.config(bg="skyblue")
 root.resizable(False, False)
