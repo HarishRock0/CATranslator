@@ -9,11 +9,11 @@ translator = Translator()
 root = tk.Tk()
 root.title("CodeAlpha Translator") 
 root.geometry("1000x600+100+0")
-root.config(bg="skyblue")
+root.config(bg="#3D5675")
 root.resizable(False, False)
 
 # Title
-tk.Label(root, text="CodeAlpha Translator", font=("Arial", 20, "bold"), bg="skyblue").pack(pady=10)
+tk.Label(root, text="CodeAlpha Translator", font=("Arial", 20, "bold"), bg="#3D5675").pack(pady=10)
 
 # Main frame
 frame1 = tk.Frame(root, height=300, width=950, relief="ridge", bg="white", bd=3)
