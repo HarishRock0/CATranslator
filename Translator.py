@@ -111,19 +111,19 @@ def swap_languages():
         text_input2.config(state="disabled")
 
 # Buttons
-button_frame = tk.Frame(root, bg="skyblue")
+button_frame = tk.Frame(root, bg="#3D5675")
 button_frame.place(relx=0.5, rely=0.85, anchor="center")
 
 translate_btn = tk.Button(button_frame, text="Translate", font=("Arial", 12), 
-                         bg="lightblue", command=translate_text)
+                         bg="#3D5675", command=translate_text)
 translate_btn.pack(side="left", padx=10)
 
 clear_btn = tk.Button(button_frame, text="Clear", font=("Arial", 12), 
-                     bg="lightblue", command=clear_text)
+                     bg="#3D5675", command=clear_text)
 clear_btn.pack(side="left", padx=10)
 
 swap_btn = tk.Button(button_frame, text="Swap Languages", font=("Arial", 12), 
-                    bg="lightblue", command=swap_languages)
+                    bg="#3D5675", command=swap_languages)
 swap_btn.pack(side="left", padx=10)
 
 root.mainloop()
